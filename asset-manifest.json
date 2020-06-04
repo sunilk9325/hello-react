@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/sunilk9325/hello-react/static/js/main.6737c7cf.chunk.js",
+    "main.js.map": "/sunilk9325/hello-react/static/js/main.6737c7cf.chunk.js.map",
+    "runtime-main.js": "/sunilk9325/hello-react/static/js/runtime-main.382b6d13.js",
+    "runtime-main.js.map": "/sunilk9325/hello-react/static/js/runtime-main.382b6d13.js.map",
+    "static/js/2.32ee0aab.chunk.js": "/sunilk9325/hello-react/static/js/2.32ee0aab.chunk.js",
+    "static/js/2.32ee0aab.chunk.js.map": "/sunilk9325/hello-react/static/js/2.32ee0aab.chunk.js.map",
+    "index.html": "/sunilk9325/hello-react/index.html",
+    "precache-manifest.065ca9bd444130c60ed7ec1e58b910ee.js": "/sunilk9325/hello-react/precache-manifest.065ca9bd444130c60ed7ec1e58b910ee.js",
+    "service-worker.js": "/sunilk9325/hello-react/service-worker.js",
+    "static/js/2.32ee0aab.chunk.js.LICENSE": "/sunilk9325/hello-react/static/js/2.32ee0aab.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.382b6d13.js",
+    "static/js/2.32ee0aab.chunk.js",
+    "static/js/main.6737c7cf.chunk.js"
+  ]
+}
