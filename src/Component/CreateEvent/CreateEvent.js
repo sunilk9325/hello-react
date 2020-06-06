@@ -42,10 +42,10 @@ class CreateEvent extends Component{
                 </form>
                 <div className={classes.action}>
                     <Button type="warning" style={{float: 'left', marginRight: '10px'}} onClick={this.handleSubmission}>
-                    <img src={reschedule} className={classes.img_icon} alt=""/> Schedule
+                        <img src={reschedule} className={classes.img_icon} style={{verticalAlign: 'middle'}} alt=""/> Schedule
                     </Button>
                     <Button type="danger" style={{float: 'left'}} onClick={this.props.cancel}>
-                    <img src={cancel} className={classes.img_icon} alt=""/> Cancel
+                        <img src={cancel} className={classes.img_icon} alt=""/> Cancel
                     </Button>
                 </div>
                 <div className={classes.clearBoth} />
