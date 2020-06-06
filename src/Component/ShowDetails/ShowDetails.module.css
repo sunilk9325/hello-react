@@ -1,0 +1,32 @@
+.container{
+    margin: 12px 16px;
+}
+
+.heading{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.repeat_flag{
+    font-size: 10px;
+    color: #4EDDBA;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.clearBoth{
+    clear: both;
+}
+
+.action{
+    margin-top: 30px
+}
+
+.img_icon{
+    width: 12px
+}

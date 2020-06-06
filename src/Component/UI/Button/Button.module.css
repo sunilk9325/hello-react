@@ -1,0 +1,27 @@
+.warning{
+    background: #F5CA5C;
+    border: 1px solid #F0CA6E;
+    width: 94px;
+    font-size: 12px;
+    padding: 4px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    box-shadow: inset 6px 9px 9px -11px;
+    cursor: pointer;
+}
+
+.danger{
+    background: #FA4141;
+    border: 1px solid #FD5454;
+    width: 94px;
+    font-size: 12px;
+    padding: 4px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    box-shadow: inset 6px 9px 9px -11px;
+    cursor: pointer;
+}

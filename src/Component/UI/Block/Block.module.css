@@ -1,0 +1,58 @@
+.block{
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 1px 2px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.time{
+  font-size: 9px;
+  font-weight: bold;
+  text-transform: lowercase;
+  float: left;
+}
+
+.icon{
+  position: absolute;
+  margin-left: 65px;
+}
+
+.clearBoth{
+  clear: both
+}
+
+.blocked{
+  color: gray;
+  background: #F9F5F2;
+  border: 1px solid gainsboro;
+  opacity: 0.5;
+}
+
+.open{
+  color: blue;
+  background: #EFEEFE;
+  border: 1px solid #C6BFFB;
+}
+
+.open:hover{
+  background: #e8e8e8;
+}
+
+.booked{
+  color: white;
+  background: #4ADAB6;
+  border: 1px solid #3CB89D;
+}
+
+.booked:hover{
+  background: #52f2ca;
+}
+
+.desc{
+  text-transform: capitalize;
+  font-size: 12px;
+  width: 50px;
+  margin-top: 8px;
+}
