@@ -38,7 +38,7 @@ class Calendar extends Component{
         '30_11': {name: 'Hillary Clinton', starred: true},
         '1_12': {name: 'Justin Timberlake', repeat: true},
       },
-      selected: '',
+      selected_event: '',
       create_event: ''
     }
   }
@@ -73,13 +73,13 @@ class Calendar extends Component{
     }
 
     this.setState({
-      selected: details
+      selected_event: details
     })
   }
 
   remove = () => {
     this.setState({
-      selected: '',
+      selected_event: '',
       create_event: ''
     })
   }
@@ -109,7 +109,7 @@ class Calendar extends Component{
     let times = Object.entries(this.state.times)
     let bookedDate = Object.keys(this.state.booked_details)
     let blockedDate = this.state.blocked_details
-    let selected = this.state.selected
+    let selectedEvent = this.state.selected_event
     let createEvent = this.state.create_event
 
     return (
@@ -180,7 +180,7 @@ class Calendar extends Component{
           </tbody>
         </table>
         {
-          selected !== '' && <ShowDetails selected={selected} cancel={this.remove}/>
+          selectedEvent !== '' && <ShowDetails selected={selectedEvent} cancel={this.remove}/>
         }
         {
           createEvent !== '' && <CreateEvent save={this.saveEvent} cancel={this.remove}/>
