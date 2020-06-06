@@ -28,7 +28,7 @@ class ShowDetails extends Component{
                 }
                 <div className={classes.action}>
                     <Button type="warning" style={{float: 'left', marginRight: '10px', cursor: 'not-allowed'}}>
-                    <img src={reschedule} className={classes.img_icon} alt=""/> Reschedule
+                    <img src={reschedule} className={classes.img_icon} style={{verticalAlign: 'middle'}} alt=""/> Reschedule
                     </Button>
                     <Button type="danger" style={{float: 'left'}} onClick={this.props.cancel}>
                     <img src={cancel} className={classes.img_icon} alt=""/> Cancel
